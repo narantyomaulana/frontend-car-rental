@@ -1,0 +1,82 @@
+@media only screen and (max-width: 320px) {
+    .pl-7rem{
+       margin-left: -1.5rem;
+        text-align: center;
+    }
+    .text-sm{
+        font-size: 14px;
+    }
+    .star{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .pl-7rem{
+      margin-left: -1.5rem;
+      text-align: center;
+    }
+    .star{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .pl-7rem{
+        margin-left: -1.5rem;
+        margin-right: 1.5rem;
+        text-align: center;
+    }
+    .star{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* header */
+    .pl-7rem{
+        padding-left: 40px;
+    }
+    .img-car{
+       padding-left: 4.5rem;
+    }
+    /* service */
+    .pd-sm{
+        margin-top: -6rem;
+    }
+    .kategori h2{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .owl-carousel{
+        width: 100%;
+    }
+    .col-sm-3{
+        width: 100%;
+    }
+    .star{
+        text-align: center;
+    }
+    .navbar-toggler,
+    .navbar-collapse {
+    display: none;
+    background-color: #f1f3ff;
+  }
+}
+
+@media (min-width: 768px) {
+    #main,
+    .sidebar {
+      display: none;
+      background-color: #f1f3ff;
+    }
+  }
+@media only screen and (max-width:1024px){
+    .pl-7rem{
+        padding-left: 40px;
+    }
+    .navbar-nav li{
+        margin-top: 10px;
+    }
+    .navbar-nav div button{
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+}
