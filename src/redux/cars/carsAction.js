@@ -20,7 +20,7 @@ const fetchUser = (filter) => {
   return (dispatch) => {
     dispatch(fetchCarsRequest);
     fetch("https://challenge-chapter-8-narantyo.herokuapp.com/v1/cars", {
-      method: "GET",
+      method: "POST",
       headers: {
         "Content-type": "application/json",
       },
