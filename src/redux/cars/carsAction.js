@@ -19,8 +19,8 @@ const fetchCarsFailure = (error) => {
 const fetchUser = (filter) => {
   return (dispatch) => {
     dispatch(fetchCarsRequest);
-    fetch("http://localhost:8080/api/v1/filter", {
-      method: "POST",
+    fetch("https://challenge-chapter-8-narantyo.herokuapp.com/v1/cars", {
+      method: "GET",
       headers: {
         "Content-type": "application/json",
       },
